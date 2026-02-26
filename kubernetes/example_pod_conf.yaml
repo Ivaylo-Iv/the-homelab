@@ -8,4 +8,6 @@ spec:
   containers:
   - image: nginx
     name: nginx-yaml
+    ports:
+      - containerPort: 80
 
